@@ -1,3 +1,14 @@
-p{
-    color: blue;
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li {
+float: left;
+}
+
+.nav-right{
+float: right;
+color: blanchedalmond;
+padding: 10px;
 }
