@@ -1,6 +1,9 @@
 ul{
     list-style-type: none;
+    border: 1px solid;
+    background-color: whitesmoke;
     overflow: hidden;
+    padding: 9;
 }
 
 li {
@@ -9,6 +12,30 @@ float: left;
 
 .nav-right{
 float: right;
-color: blanchedalmond;
-padding: 10px;
+}
+
+li a{
+display: block;
+color: maroon;
+padding: 14px;
+}
+
+li a:hover{
+background-color: rgb(156, 148, 148);
+padding: 13px;
+}
+
+a{
+ text-decoration: none;
+ color: blue;
+ padding: 10px;
+}
+
+a:hover{
+    background-color: rgb(156, 148, 148);
+}
+
+ li a.active{
+    background-color: lightskyblue;
+    color: maroon;
 }
